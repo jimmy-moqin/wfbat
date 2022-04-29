@@ -1,3 +1,8 @@
+# 蛋白序列对齐输出格式设置
+PROTEIN_ALIGN_INLINE = 60
+PROTEIN_ALIGN_BLOCK = 10
+BLANKLINES = 1
+
 # 氨基酸缩写全称以及分子量
 AMINOACIDS = {
     "A": ("Ala", "Alanine",71.0788),
