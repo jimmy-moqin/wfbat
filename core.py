@@ -8,9 +8,9 @@ class BioProject(WfBat):
         self.projectName = None
         self.workFlowList = []
     
-    def createProject(self,Name):
+    def startproject(self,Name):
         self.projectName = Name
-        
+        print(os.getcwd())
         
     def mkdir(self,path):
         path = path.strip()
