@@ -1,12 +1,19 @@
-# 蛋白序列文件路径
-PROTEINS_FILE_PATH = []
+
 # 允许的蛋白序列格式
 ALLOW_PROTEIN_FORMAT = ['fasta', 'fastq']
+
+# 允许的核苷酸序列格式
+ALLOW_NUCL_FORMAT = ['fasta']
 
 # 蛋白序列对齐输出格式设置
 PROTEIN_ALIGN_INLINE = 60
 PROTEIN_ALIGN_BLOCK = 10
-BLANKLINES = 1
+PROTEIN_ALIGN_BLANKLINES = 1
+
+# 核苷酸序列对齐输出格式设置
+NUCL_ALIGN_INLINE = 60
+NUCL_ALIGN_BLOCK = 10
+NUCL_ALIGN_BLANKLINES = 1
 
 # 氨基酸缩写全称以及分子量
 AMINOACIDS = {
@@ -35,4 +42,10 @@ AMINOACIDS = {
     "X": ("", "Unknown", 111.3248),
     "Z": ("", "Glutamine or Glutamic acid", 128.746),
     "B": ("", "Asparagine or Aspartic acid", 114.6448),
+}
+
+# 注册分析工具
+REGISTEREDTOOLS = {
+    'alignTool':True,
+    'mwTool':True,
 }

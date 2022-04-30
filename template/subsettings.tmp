@@ -1,0 +1,17 @@
+import sys
+sys.path.append("..")
+import settings
+
+
+# 蛋白序列文件路径
+PROTEINS_FILE_PATH = "./preteins"
+
+# 核苷酸序列文件路径
+NUCL_FILE_PATH = "./nucleotides"
+
+# 注册分析工具
+settings.REGISTEREDTOOLS.update(
+    {
+
+    }
+)
